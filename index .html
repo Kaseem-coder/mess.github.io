@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --bgm: rgb(211, 168, 176);
+            --bord: pink;
+            --color1: #FF007F;
+            --color2: #FFB6C1;
+            --color3: #E30B5D;
+            --color4: #FF1493;
+            --color5:  #FFC0CB;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: var(--bgm);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+        }
+        
+        .colours{
+            display: flex;
+            justify-content: center;
+            text-align:center;
+            padding: 20px;
+            font-size: large;
+            font-weight: 500;
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        ul li{
+            border: 2px solid;
+            border-radius: 9px;
+            padding: 70px;
+        }
+        ul :nth-child(1) li{
+            background-color:var(--color1);
+
+            
+        }
+        ul :nth-child(2) li{
+            background-color: #FFB6C1;
+        }
+        ul :nth-child(3) li{
+            background-color: #E30B5D;
+        }
+        ul :nth-child(4) li{
+            background-color: #FF1493
+            ;
+        }
+        ul :nth-child(5) li{
+            background-color: #FFC0CB
+            ;
+        }
+        @media only screen and (max-width:810px){
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+<h1>
+    The Last Message
+</h1>
+
+  <div class="colours"> Select your favourite color....<br> Well I do know it is Pink so which one</div>
+
+   <ul>
+    <a href="http://127.0.0.1:3002/index1.html"><li></li></a>
+    <a href="http://127.0.0.1:3002/index2.html"><li></li></a>
+    <a href="http://127.0.0.1:3002/index3.html"><li></li></a>
+    <a href="http://127.0.0.1:3002/index4.html"><li></li></a>
+    <a href="http://127.0.0.1:3002/index5.html"><li></li></a>
+
+   </ul>
+
+   <div class="colours">Just Click on any colour</div>
+  
+
+ 
+
+
+</body>
+</html>
